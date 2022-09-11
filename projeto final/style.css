@@ -1,0 +1,285 @@
+body {
+    margin:0;
+}
+
+.inicial{
+
+    width: 100%;
+    height: 120px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(216, 144, 144);
+
+}
+
+.menu {
+    width: 83%;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   
+} 
+
+.box_logo{
+
+    width: 400px;
+    height: 90px;
+    cursor: pointer;
+}
+
+    .icons_local{
+
+        display: flex;
+    }
+
+    .icons_local p {
+        margin-right: 10px;
+        
+    }
+
+    .topicos{
+        height: 70px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-bottom: 1px solid rgb(216, 144, 144);
+    }
+
+    .lista_opcoes{
+        
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        
+    }
+
+    .pesquisa{
+        cursor: pointer;
+    }
+
+
+    .lista_opcoes{
+        list-style: none;
+        cursor: pointer;
+    }
+
+    .list_topicos_red{
+
+        color: aliceblue;
+        background-color: brown;
+
+        list-style: none;
+        cursor: pointer;
+        font-size: 20px;
+        
+    }
+
+    .box_img_externa{
+           border-bottom: 1px rgb(216, 144, 144);
+   }
+
+    .box_img{
+
+        background-position-y: 3mm;
+        width: 80%;
+        height: 700px;
+       
+        background-image: url(https://difusora95.com.br/wp-content/uploads/2021/08/dia-do-advogado.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-left: 80px  ;
+
+
+    }
+
+
+.box_img h1 {
+
+
+
+
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: rgb(165, 42, 42);
+font-size: 3em; color: #f7f6f1;
+
+
+    padding-right: 550px;
+    margin: 8%;
+    font-size: 30pt;
+    color: rgba(255, 255, 255, 0.753);
+    
+}
+
+
+.box_img h2{
+    
+    padding-right: 400px    ;
+    margin-block-end: 15%;
+    font-size: 15pt;
+    color: aliceblue;
+}
+
+    .box_img_externa{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .butao1 {
+
+        color: azure;
+        background-color: rgb(165, 42, 42);
+        
+        font-size: medium;
+        
+        width: 300px;
+        height: 40px;
+        border-radius: 20px;
+        cursor: pointer;
+
+    }
+
+    .img2{
+
+        margin-top: 10mm;
+        
+        width: 90%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+
+        
+        border-bottom: 1px color rgb(165, 42, 42);
+
+    }
+
+    .text1 h2{
+        color: black;
+        margin-top: 2mm;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text2 h2{
+        color: black;
+        margin-left: 110px;
+        width: 90%;
+        height: 10px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text3 h2{
+
+        background-color: brown;
+        color: rgb(235, 223, 223);
+        margin-top: 2cm;
+        margin-bottom: 100px;
+        width: 110%;
+        height: 100px;
+        
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        cursor: pointer;
+    }
+
+    .box_interno{
+
+       
+        width: 100%;
+        height: 600px;
+       
+        background-image: url(https://imgs.dreamcasa.com.br/fit-in/700x400/dist/blog/imgs/2019/04/aperto-de-mao.jpg);
+       
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-left: 1px  ;
+    }
+
+    
+
+    .text5{
+         
+        
+        width: 100%;
+        margin-bottom: 150px;
+        height: 100px;
+        
+
+        display: flex;
+         color: rgb(22, 11, 6);
+
+        font-size: x-large;
+        
+        justify-content: center;
+        
+       
+    }
+
+    .text5 h2{
+
+        margin-top: 100px;
+    }
+
+   
+
+    .botao5{
+        color: azure;
+        background-color: rgb(165, 42, 42);
+
+        display: flex;
+        
+        font-size: large;
+        justify-content: center;
+        align-items: center;
+
+        margin-inline: 550px;
+        margin-bottom: 400px;       
+        width: 300px;
+        height: 40px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    .rodape{
+        background-color: rgb(0, 0, 0);
+        color: antiquewhite;
+
+        display: flex;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        height: 300px;
+
+        justify-content: center;
+
+      
+    }
+
+    .rodape h1{
+
+        margin-top: 100px;
+    }
+
+  
+
+
+   
+
+
+
+
